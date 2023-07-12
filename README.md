@@ -8,9 +8,9 @@
 
   <h3><b>WebPack Template</b></h3>
   <p>This repo can be used for projects that use webpack bundling. Take a look at  file</p>
-[webpack installation readme](WebPackInstallation.md)
-</div>
 
+</div>
+[webpack installation readme](WebPackInstallation.md)
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
