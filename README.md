@@ -14,6 +14,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+- [webpack installation readme](#webpack-installation)
 
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
@@ -34,6 +35,8 @@
 
 **WebPack Template**
 it can be used for projects that use webpack bundling.
+
+## 🛠 webpack installation <a name="webpack-installation"> [webpack-installation](WebPackInstallation.md)</a>
 
 ## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
 
@@ -58,7 +61,8 @@ it can be used for projects that use webpack bundling.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-To use this template just [visit](https://github.com/GeekyHacks/WebPackTemplate) 
+
+To use this template just [visit](https://github.com/GeekyHacks/WebPackTemplate)
 the repository and press on "use this template"
 
 To get a local copy up and running, follow these steps:
@@ -115,7 +119,6 @@ Must-Install-Project-with-the-Following-Programmes:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Adding more webpack deps
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
