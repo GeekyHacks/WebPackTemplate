@@ -7,7 +7,7 @@
   <br/>
 
   <h3><b>WebPack Template</b></h3>
-  <p>This repo can be used for projects that use webpack bundling. </p>
+  <p>This repo can be used for projects that use webpack bundling. Take a look at [webpack installation readme](WebPackInstallation.md) file</p>
 
 </div>
 
