@@ -5,7 +5,7 @@
 - it help you run your project in your own server with instance reload
 - create `src` folder and create an `index.js` file to import all your js code to it, basically webpack will start from this file, its called `main` in your package.json file and its path is mentioned in there
 - use `npm init -y` to create your package file automatically
-- use `npm install i -D webpack webpack-cli` to install the package in your dependencies section
+- use `npm i -D webpack webpack-cli` to install the package in your dependencies section
 - create a file `webpack.config.js` in your main folder to start configuring your webpack
 - start by putting the following code
 
@@ -72,7 +72,7 @@ module.exports = {
     }),
 // this plugin will show you a visual layout of what your 
 //bundle looks like
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
   ],
 }
 ```
@@ -90,7 +90,7 @@ module.exports = {
 // this part you have to input it so you can run them
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "start": "webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -107,7 +107,7 @@ module.exports = {
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
-    "webpack-bundle-analyzer": "^4.5.0",
+    // "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
   },
