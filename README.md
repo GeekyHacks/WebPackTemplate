@@ -10,7 +10,6 @@
   <p>This repo can be used for projects that use webpack bundling. Take a look at  file</p>
 
 </div>
-[webpack installation readme](WebPackInstallation.md)
 # 📗 Table of Contents
 
 - [WebPackTemplate](#webpacktemplate)
@@ -41,7 +40,6 @@ it can be used for projects that use webpack bundling.
 ## Instructions <a name="Instructions"></a>
 You will need to install the node_modules so the package.json and webpack.config work.
 copy the following commands in sequence:
-- `npm init -y`
 - `npm i -D webpack webpack-cli`
 - `npm i -D webpack-dev-server` to install the local server
 - `npm i -D sass style-loader css-loader sass-loader` to install loaders for styling, sass, and css
