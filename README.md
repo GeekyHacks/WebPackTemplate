@@ -7,7 +7,7 @@
   <br/>
 
   <h3><b>WebPack Template</b></h3>
-  <p>This repo can be used for projects that use webpack bundling. Take a look at  file</p>
+  <p>This repo can be used for projects that use webpack bundling. Take a look at  file, please have a look at  <a herf="https://youtu.be/IZGNcSuwBZs">this video to understand webpack </a></p>
 
 </div>
 # 📗 Table of Contents
@@ -16,7 +16,7 @@
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 WebPack Template ](#-webpack-template-)
   - [Instructions](#instructions)
-  - [🛠 webpack installation  webpack-installation](#-webpack-installation--webpack-installation)
+  - [🛠 webpack installation webpack-installation](#-webpack-installation--webpack-installation)
   - [🛠 Built With HTML, CSS and JavaScript](#-built-with-html-css-and-javascript)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -38,16 +38,18 @@
 it can be used for projects that use webpack bundling.
 
 ## Instructions <a name="Instructions"></a>
+
 You will need to install the node_modules so the package.json and webpack.config work.
 copy the following commands in sequence:
+
 - `npm i -D webpack webpack-cli`
 - `npm i -D webpack-dev-server` to install the local server
 - `npm i -D sass style-loader css-loader sass-loader` to install loaders for styling, sass, and css
 - `npm i -D html-webpack-plugin` this will istall the plugin that will make the index.html file in the dist, its based on the tmplate file in your src
 - `npm i -D babel-loader @babel/core @babel/preset-env` to install babel that will make your code run on browsers
 - `npm run build` to test if webpack is working and you will see dist folder is regenrated and you will run this command anytime you wanna add images or edit the template html file
-- 
-- `npm run build` 
+-
+- `npm run build`
 - `npm run start` to display your dist in local server(browser just like the live server extention)
 - once webpack is working perfectly
 - (this is opitional) install the linters test packages according to Microverse requirements
