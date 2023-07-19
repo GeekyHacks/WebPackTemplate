@@ -1,0 +1,66 @@
+$InterFont: "Inter", sans-serif
+$primary-color: #2fa8cc
+$secondary-color: #acc6e4
+$inputColor:#a8ccf5
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1)
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+// mixings
+
+@mixin columnFlex
+    display: flex
+    flex-direction: column
+@mixin rowFlex
+    display: flex
+    flex-direction: row
+@mixin button
+    transition: all 0.5s
+    border-radius: 2px
+    font-family: $InterFont
+    font-weight: 500
+    font-size: 1rem
+    letter-spacing: 0.001em
+    word-spacing: normal
+    background-color: $primary-color
+    color: $secondary-color
+    border: 0
+    box-shadow: $box-shadow
+    padding: 10px
+    cursor: pointer
+    text-align: center
+
+@mixin twoThreeGrid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+
+@mixin globalFont
+    font-family: $InterFont
+    font-weight: 500
+    font-size: 1.2rem
+@mixin smlInterH1
+    color: black
+    font-size: 2rem
+    font-family: $InterFont
+    font-weight: 800
+    letter-spacing: -0.0525rem
+@mixin smlInterH2
+    color: black
+    font-size: 1.5rem
+    font-family: $InterFont
+    font-weight: 800
+    letter-spacing: -0.0225rem
+@mixin smlInterH3
+    color: black
+    font-size: 1.2rem
+    font-family: $InterFont
+    font-weight: 600
+    letter-spacing: 0.0025rem
+@mixin smlInterP
+    color: black
+    font-size: .9rem
+    font-family: $InterFont
+    letter-spacing: 0.0125rem
