@@ -1,4 +1,4 @@
-# Geeky Leaderboard
+# Module 2 Capstone Pokemon
 
 <a name="readme-top"></a>
 
@@ -6,18 +6,18 @@
 
   <br/>
 
-  <h3><b>Geeky-Leaderboard</b></h3>
-  <p>In this project I will be using webpack to bundle my code, the project is about adding scores to a leaderboard that can be add, removed, marked, and edit using API. It will include mainly JS code and sass for styling.</p>
+  <h3><b>Module 2 Capstone Pokemon</b></h3>
+  <p>In this project I will be using webpack to bundle my code, the project is about using multiple APIs to show and manipulate data. Styling is done with sass. Jest testing is used for the project. It will include mainly JS, HTML, Sass, and JSON</p>
 
 </div>
 
 # 📗 Table of Contents
 
-- [Geeky Leaderboard](#Geeky-Leaderboard)
+- [Module 2 Capstone Pokemon](#Module2Capstone_Pokemon)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Geeky-Leaderboard\< ](#-geeky-leaderboard-)
-  - [🚀 Live Demo ](#-live-demo-)
-- [📖 Geeky-Leaderboard\< ](#-geeky-leaderboard--1)
+- [📖 Module 2 Capstone Pokemon< ](#Module2Capstone_Pokemon)
+- [🚀 Live Demo ](#-live-demo-)
+- [📖 Module 2 Capstone Pokemon< ](#Module2Capstone_Pokemon)
   - [🛠 Built With HTML, CSS and JavaScript](#-built-with-html-css-and-javascript)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -33,16 +33,16 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-# 📖 Geeky Leaderboard< <a name="about-project"></a>
+# 📖 Module 2 Capstone Pokemon< <a name="about-project"></a>
 
-**Geeky Leaderboard<e**
-the project is about adding Geeky-Leaderboard that can be add, removed, marked, and edit. It will include mainly JS code and sass for styling.
+**Module 2 Capstone Pokemon<e**
+In this project I will be using webpack to bundle my code, the project is about using multiple APIs to show and manipulate data. Styling is done with sass. Jest testing is used for the project. It will include mainly JS, HTML, Sass, and JSON.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://geekyhacks.github.io/GeekyLeaderboard/dist/.)
 
-# 📖 Geeky-Leaderboard< <a name="live-demo"></a>
+# 📖 Module 2 Capstone Pokemon <a name="live-demo"></a>
 
 ## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
 
@@ -60,7 +60,10 @@ the project is about adding Geeky-Leaderboard that can be add, removed, marked, 
 
 </a>
 
-- In this project I will be using webpack to bundle my code, the project is about adding scores to a leaderboard that can be add, removed, marked, and edit using API. It will include mainly JS code and sass for styling
+- API
+- Webpack
+- Jest
+- Sass
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,7 +75,7 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/GeekyLeaderboard.git
+- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Module2Capstone_Pokemon.git
 
 ### Prerequisites
 
@@ -87,13 +90,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/GeekyHacks/GeekyLeaderboard.git
+- git clone https://github.com/GeekyHacks/Module2Capstone_Pokemon.git
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/GeekyHacks/GeekyLeaderboard.git
+  git clone https://github.com/GeekyHacks/Module2Capstone_Pokemon.git
 
 ```
 
@@ -103,11 +106,12 @@ Example commands:
 
 Must-Install-Project-with-the-Following-Programmes:
 
-- Prettier Extention in VScode
-- Git
-- Node.js
-- npm install
-- webpack
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) Extention in VScode
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download)
+- [npm install](https://docs.npmjs.com/cli/v8/commands/npm-install)
+- [webpack](https://webpack.js.org/guides/installation/)
+- [Jest](https://jestjs.io/docs/getting-started)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +133,7 @@ Must-Install-Project-with-the-Following-Programmes:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/GeekyHacks/GeekyLeaderboard/issues).
+Feel free to check the [issues page](https://github.com/GeekyHacks/Module2Capstone_Pokemon/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,9 +149,10 @@ people.
 I would like to thank...
 
 - Microverse Review Team
-- My Coding Partners
+- My Coding Partner @firstpj
 - Microverse Community in Slack
-- my Mentor Justice
+- my Mentor @Strangeal
+- [Pokemon API](https://pokeapi.co/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
