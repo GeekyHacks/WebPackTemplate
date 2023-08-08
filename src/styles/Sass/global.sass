@@ -1,0 +1,96 @@
+$InterFont: "Inter", sans-serif
+$primary-color: #c2e2ea
+$secondary-color: #72bbce
+$fontColor: #002d67
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1)
+$qrpadding: calc( 12% - 80px )
+$Qrpadding: calc( 25% - 120px )
+$qlpadding: calc( 12% - 80px )
+$Qlpadding: calc( 25% - 120px )
+
+@mixin columnFlex
+    display: flex
+    flex-direction: column
+
+@mixin rowFlex
+    display: flex
+    flex-direction: row
+
+@mixin button
+    transition: all 0.5s
+    border-radius: 4px
+    font-size: .8rem
+    font-weight: 600
+    color: $fontColor
+    background-color: $primary-color !important
+    border: 2px
+    box-shadow: $box-shadow
+    padding: 3px
+    cursor: pointer
+    text-align: center
+
+    &:active
+        transform: scale(0.98)
+
+    &:focus
+        outline: 0
+
+@mixin oneFiveGrid
+    display: grid
+    grid-template-columns: 1fr
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr
+
+@mixin fiveOneGrid
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    grid-auto-rows: 1fr
+
+@mixin twoThreeGrid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+
+@mixin globalFont
+    font-family: $InterFont
+    font-weight: 500
+    font-size: 1.2rem
+
+@mixin smlInterH1
+    color: black
+    font-size: 2rem
+    font-family: $InterFont
+    font-weight: 800
+    letter-spacing: -0.0525rem
+
+@mixin smlInterH2
+    color: black
+    font-size: 1.5rem
+    font-family: $InterFont
+    font-weight: 800
+    letter-spacing: -0.0225rem
+
+@mixin smlInterH3
+    color: black
+    font-size: 1.2rem
+    font-family: $InterFont
+    font-weight: 600
+    letter-spacing: 0.0025rem
+
+@mixin smlInterP
+    color: black
+    font-size: .9rem
+    font-family: $InterFont
+    letter-spacing: 0.0125rem
+
+@mixin transparentText
+    background-image: url('#{$assetsPath}/Flag-Yemen.webp')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+@mixin transparentBg
+    background-image: url('#{$assetsPath}/Flag-Yemen.webp')
+    background-size: 100% 100%
+    background-blend-mode: color-burn
+    background-repeat: no-repeat
